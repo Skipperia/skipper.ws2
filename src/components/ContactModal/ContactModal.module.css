@@ -1,0 +1,57 @@
+.contact-modal-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.contact-button {
+  background-color: darkslategrey;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.contact-button:hover {
+  text-decoration: underline;
+}
+
+.contact-modal {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: darkslategrey;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+
+}
+
+
+.contact-link:last-child {
+  border-bottom: none;
+}
+
+.contact-link:hover {
+  background-color: #f0f0f0;
+}
+
+.icon {
+  margin-right: 8px; /* Adjust the spacing as needed */
+  width: 16px; /* Adjust the size as needed */
+  height: 16px; /* Adjust the size as needed */
+}
