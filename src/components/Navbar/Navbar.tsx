@@ -13,10 +13,17 @@ const Navbar: React.FC = () => {
                 </div>
             </a>
             <div className={styles.links}>
+                <li>
+                    <a>
+
+                    </a>
+                </li>
+                <a href="https://github.com/Skipperia" target="_blank" className={styles.link}>github</a>
                 <ContactModal />
-                <a href="https://github.com/Skipperia" target="_blank"
-                    className={styles.link}>github</a>
-                <a href="/about" className={styles.link}>about</a>
+                <li>
+                    <a href="#about" className={styles.link}>about</a>
+                </li>
+
             </div>
         </nav>
     );

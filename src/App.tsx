@@ -1,5 +1,7 @@
 import './App.module.css'
+import { About } from './components/About/About'
 import Navbar from './components/Navbar/Navbar'
+import { Projects } from './components/Projects/Projects'
 
 function App() {
 
@@ -7,10 +9,9 @@ function App() {
     <>
       <Navbar />
       <div className="card">
-        <p>
-          lets gooo
-        </p>
+        <Projects />
       </div>
+      <About />
     </>
   )
 }
