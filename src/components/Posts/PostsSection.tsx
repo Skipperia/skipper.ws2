@@ -38,7 +38,6 @@ const PostSection: React.FC<PostSectionProps> = () => {
         <section id='posts'>
             <div className={styles.container}>
                 <h2 className={styles.title}>posts</h2>
-                <br></br>
                 {posts.map((post, index) => (
                     <Post
                         key={index}
