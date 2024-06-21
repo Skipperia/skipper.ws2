@@ -1,4 +1,4 @@
-.project-card {
+.post-component {
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
@@ -6,30 +6,36 @@
     transition: transform 0.3s;
 }
 
-.project-card:hover {
+.post-component:hover {
     transform: translateY(-5px);
 }
 
-.project-card-image {
+.post-component-image {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
 
-.project-card-content {
+.post-component-content {
     padding: 16px;
 }
 
-.project-card-title {
+.post-component-title {
     margin: 0;
     font-size: 1.5em;
 }
 
-.project-card-description {
+.post-component-date {
+    margin: 8px 0;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.post-component-summary {
     margin: 8px 0;
 }
 
-.project-card-link {
+.post-component-link {
     text-decoration: none;
     color: #007bff;
 }
