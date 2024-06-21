@@ -11,10 +11,6 @@ interface Post {
     date: string;
 }
 
-interface PostSectionProps {
-    posts: Post[];
-}
-
 const posts = [
     {
         title: 'What the hell am I talking about?',
@@ -33,7 +29,7 @@ const posts = [
     // Add more posts as needed
 ];
 
-const PostSection: React.FC<PostSectionProps> = () => {
+const PostSection: React.FC = () => {
     return (
         <section id='posts'>
             <div className={styles.container}>
