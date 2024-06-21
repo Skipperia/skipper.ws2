@@ -23,3 +23,16 @@
     text-transform: lowercase;
     color: white;
 }
+
+/* CSS for mobile view */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 20px; /* Adjust padding for mobile */
+        margin-left: 5%; /* Adjust margins for mobile */
+        margin-right: 5%;
+    }
+
+    .title {
+        font-size: 25px; /* Adjust font size for mobile */
+    }
+}

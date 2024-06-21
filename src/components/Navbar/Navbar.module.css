@@ -94,3 +94,38 @@
     z-index: 1000;
 }
 
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .brand {
+        margin-bottom: 10px;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .link {
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    .contact-modal-wrapper {
+        margin-top: 10px;
+    }
+
+    .contact-button {
+        margin: 0;
+    }
+
+    .contact-modal {
+        width: 100%;
+        top: 60px;
+    }
+}
+

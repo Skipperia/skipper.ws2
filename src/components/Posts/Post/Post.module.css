@@ -41,3 +41,31 @@
     text-decoration: none;
     color: #007bff;
 }
+
+/* CSS for mobile view */
+@media only screen and (max-width: 600px) {
+    .post-component {
+        margin: 10px; /* Adjust margin for mobile */
+    }
+
+    .post-component-image {
+        width: 100%; /* Make image full width for mobile */
+        height: 150px; /* Adjust image height for mobile */
+    }
+
+    .post-component-content {
+        padding: 10px; /* Adjust padding for mobile */
+    }
+
+    .post-component-title {
+        font-size: 1.2em; /* Adjust font size for mobile */
+    }
+
+    .post-component-date {
+        font-size: 0.8em; /* Adjust font size for mobile */
+    }
+
+    .post-component-summary {
+        font-size: 0.9em; /* Adjust font size for mobile */
+    }
+}
