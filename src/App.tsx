@@ -1,5 +1,6 @@
 import './App.module.css'
 import { About } from './components/About/About'
+import BottomBar from './components/BottomBar/BottomBar'
 import Navbar from './components/Navbar/Navbar'
 import PostSection from './components/Posts/PostsSection'
 import { Projects } from './components/Projects/Projects'
@@ -16,6 +17,7 @@ function App() {
         <PostSection />
       </div>
       <About />
+      <BottomBar />
     </>
   )
 }

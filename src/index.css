@@ -11,4 +11,6 @@ html {
   margin-left: 15%;
   margin-top: 3%;
   background-color: #333;
+  padding-bottom: 80px; /* Adjust the padding to match the height of your bottom bar */
+
 }
