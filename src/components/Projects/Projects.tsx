@@ -2,6 +2,7 @@ import React from "react";
 
 import styles from "./Projects.module.css";
 import ProjectCard from "./Project/Project";
+import { getImageUrl } from "../../utils/requestUtils";
 interface Project {
     title: string;
     description: string;
@@ -11,10 +12,10 @@ interface Project {
 
 const projects: Project[] = [
     {
-        title: 'Project 1',
-        description: 'This is the description for project 1.',
-        image: 'https://via.placeholder.com/150',
-        link: 'https://example.com/project1'
+        title: 'mobHP osrs plugn',
+        description: 'fixed its issues with runelite',
+        image: getImageUrl(""),
+        link: 'https://github.com/Skipperia/MonsterHP'
     },
     {
         title: 'Project 2',

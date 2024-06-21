@@ -4,6 +4,7 @@
     overflow: hidden;
     margin: 16px;
     transition: transform 0.3s;
+    padding: 5%;
 }
 
 .project-card:hover {

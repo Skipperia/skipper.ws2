@@ -20,13 +20,16 @@ const ContactModal: React.FC = () => {
             {isOpen && (
                 <div className={styles.contactModal}>
                     <a href="mailto:kippera27@gmail.com" className={styles.contactLink}>
-                        <img src={getImageUrl("150897750_10507049.png")} className={styles.icon}></img>
+                        <img src={getImageUrl("arrow2.png")} className={styles.icon}></img>
                         <span>email me</span>
-
                     </a>
                     <a href="tel:+972-50-9365065" className={styles.contactLink}>
-                        <img src={getImageUrl("phone.png")} className={styles.icon}></img>
+                        <img src={getImageUrl("arrow2.png")} className={styles.icon}></img>
                         <span>call me maybe</span>
+                    </a>
+                    <a href="https://discord.com/users/196178863049408513" className={styles.contactLink}>
+                        <img src={getImageUrl("arrow2.png")} className={styles.icon}></img>
+                        <span>discord</span>
                     </a>
                 </div>
             )}
