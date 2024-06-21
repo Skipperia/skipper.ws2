@@ -8,10 +8,7 @@ export const About: React.FC = () => {
         <section className={styles.container} id="about">
             <h2 className={styles.title}>about</h2>
             <div className={styles.content}>
-                <img
-                    src={getImageUrl("me.jpg")}
-                    className={styles.aboutImage}
-                />
+                <img src={getImageUrl("me.jpg")} className={styles.aboutImage} />
                 <div className={styles.aboutItems}>
                     <h1>
                         My name is Alex but everyone calls me Skipper
@@ -20,6 +17,7 @@ export const About: React.FC = () => {
                         I code stuff every now and then
                     </p>
                     <p>
+                        they usually compile but DO NOT rely on that
                     </p>
                 </div>
             </div>
