@@ -1,5 +1,5 @@
 import React from 'react';
-import './Project.module.css'; // Assuming you have some CSS for styling
+import styles from './Project.module.css'; // Import the CSS module
 
 interface ProjectCardProps {
     title: string;
@@ -10,12 +10,12 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, image, link }) => {
     return (
-        <div className="project-card">
-            <img src={image} alt={title} className="project-card-image" />
-            <div className="project-card-content">
-                <h3 className="project-card-title">{title}</h3>
-                <p className="project-card-description">{description}</p>
-                <a href={link} className="project-card-link" target="_blank" rel="noopener noreferrer">View Project</a>
+        <div className={styles.projectCard}>
+            <img src={image} alt={title} className={styles.projectCardImage} />
+            <div className={styles.projectCardContent}>
+                <h3 className={styles.projectCardTitle}>{title}</h3>
+                <p className={styles.projectCardDescription}>{description}</p>
+                <a href={link} className={styles.projectCardLink} target="_blank" rel="noopener noreferrer">View Project</a>
             </div>
         </div>
     );

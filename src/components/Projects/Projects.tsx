@@ -12,18 +12,23 @@ interface Project {
 
 const projects: Project[] = [
     {
-        title: 'mobHP osrs plugn',
+        title: 'mobHP osrs plugin',
         description: 'fixed its issues with runelite',
-        image: getImageUrl(""),
+        image: getImageUrl("89095399.jpg"),
         link: 'https://github.com/Skipperia/MonsterHP'
     },
     {
         title: 'Project 2',
-        description: 'This is the description for project 2.',
-        image: 'https://via.placeholder.com/150',
+        description: 'This is the descriptionaaaaaaaaaa.',
+        image: getImageUrl("89095399.jpg"),
         link: 'https://example.com/project2'
     },
-    // Add more projects as needed
+    {
+        title: 'Project 2',
+        description: 'This is the descriptionaaaaaaa.',
+        image: getImageUrl("89095399.jpg"),
+        link: 'https://example.com/project2'
+    }
 ];
 
 export const Projects: React.FC = () => {
@@ -41,6 +46,9 @@ export const Projects: React.FC = () => {
                     />
                 ))}
             </div>
+            <div>
+                <a href="https://github.com/Skipperia" target="_blank" className={styles.bottomtext}>check my github for more</a>
+            </div >
         </section>
     );
 };

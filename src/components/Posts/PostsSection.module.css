@@ -13,5 +13,13 @@
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
-  }
-  
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 1.75px;
+    text-transform: lowercase;
+    color: white;
+}

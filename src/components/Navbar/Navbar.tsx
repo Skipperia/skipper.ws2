@@ -15,6 +15,7 @@ const Navbar: React.FC = () => {
             <div className={styles.links}>
                 <a href="https://github.com/Skipperia" target="_blank" className={styles.link}>github</a>
                 <ContactModal />
+                <a href="#posts" className={styles.link}>posts</a>
                 <a href="#about" className={styles.link}>about</a>
             </div>
         </nav>

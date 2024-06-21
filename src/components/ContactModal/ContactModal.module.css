@@ -1,3 +1,6 @@
+@import "../../vars.css";
+
+
 .contact-modal-wrapper {
   position: relative;
   display: inline-block;

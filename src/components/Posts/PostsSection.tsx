@@ -1,6 +1,7 @@
 import React from 'react';
 import Post from './Post/Post';
 import styles from './PostsSection.module.css'; // Assuming you have some CSS for styling
+import { getImageUrl } from '../../utils/requestUtils';
 
 interface Post {
     title: string;
@@ -16,16 +17,16 @@ interface PostSectionProps {
 
 const posts = [
     {
-        title: 'Post 1',
-        summary: 'This is the summary for post 1.',
-        image: 'https://via.placeholder.com/150',
+        title: 'What the hell am I talking about?',
+        summary: 'A detailed post regarding the none sense I am preaching about',
+        image: getImageUrl("89095399.jpg"),
         link: 'https://example.com/post1',
         date: 'January 1, 2024'
     },
     {
         title: 'Post 2',
         summary: 'This is the summary for post 2.',
-        image: 'https://via.placeholder.com/150',
+        image: getImageUrl("89095399.jpg"),
         link: 'https://example.com/post2',
         date: 'February 1, 2024'
     },
@@ -34,19 +35,22 @@ const posts = [
 
 const PostSection: React.FC<PostSectionProps> = () => {
     return (
-        
-        <div className={styles.container}>
-            {posts.map((post, index) => (
-                <Post
-                    key={index}
-                    title={post.title}
-                    summary={post.summary}
-                    image={post.image}
-                    link={post.link}
-                    date={post.date}
-                />
-            ))}
-        </div>
+        <section id='posts'>
+            <div className={styles.container}>
+                <h2 className={styles.title}>posts</h2>
+                <br></br>
+                {posts.map((post, index) => (
+                    <Post
+                        key={index}
+                        title={post.title}
+                        summary={post.summary}
+                        image={post.image}
+                        link={post.link}
+                        date={post.date}
+                    />
+                ))}
+            </div>
+        </section>
     );
 };
 

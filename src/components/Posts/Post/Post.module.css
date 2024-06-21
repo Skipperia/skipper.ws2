@@ -11,7 +11,7 @@
 }
 
 .post-component-image {
-    width: 100%;
+    width: 50%;
     height: 200px;
     object-fit: cover;
 }
@@ -23,16 +23,18 @@
 .post-component-title {
     margin: 0;
     font-size: 1.5em;
+    color: white
 }
 
 .post-component-date {
     margin: 8px 0;
     font-size: 0.9em;
-    color: #777;
+    color: lightgreen;
 }
 
 .post-component-summary {
     margin: 8px 0;
+    color: white
 }
 
 .post-component-link {
