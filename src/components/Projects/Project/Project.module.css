@@ -36,7 +36,6 @@
     color: darkgreen;
     font-size: calc(0.8em + 0.5vw);
     white-space: nowrap;
-    overflow: hidden;
     text-overflow: ellipsis;
 }
 
@@ -45,7 +44,7 @@
     font-size: calc(0.5em + 0.5vw);
     flex-grow: 1;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 10;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
