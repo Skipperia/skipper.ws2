@@ -47,7 +47,7 @@ export const Projects: React.FC = () => {
                 ))}
             </div>
             <div>
-                <a href="https://github.com/Skipperia" target="_blank" className={styles.bottomtext}>check my github for more</a>
+                <a href="https://github.com/Skipperia" target="_blank" className={styles.bottomtext}>github for more</a>
             </div >
         </section>
     );
